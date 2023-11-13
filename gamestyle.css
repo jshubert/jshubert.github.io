@@ -1,0 +1,46 @@
+body {
+    background-color: rgb(196, 153, 245)48);
+    color: rgb(51, 6, 0);
+
+}
+
+nav {
+    height: 6000px;
+    width: 200px;
+    float: left;
+    padding: 5px;
+    line-height: 30px;
+
+}
+
+footer {
+    text-align: center;
+    margin-right: 200px;
+
+
+}
+
+#memeImage {
+    margin-right: 200px;
+    text-align: center;
+
+
+}
+
+header {
+
+    text-align: center;
+}
+
+button {
+
+    background-color: rgba(255, 170, 131, 0.979);
+    border-color: #fd9369;
+    border-radius: 400px;
+    width: 300px;
+    height: 300px;
+    font-size: larger;
+    font-weight: bolder;
+
+
+}

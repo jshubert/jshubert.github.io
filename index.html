@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<!--Joshua Shubert's website created Oct/13/2023
+        jjayshubert@gmail.com
+        this is lecture week 1-1
+
+        modified 11/12/2023 
+        setting up page to play auido of international space station background noise
+    -->
+
+<head>
+    <!--reference js code-->
+    <script src="index.js"></script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--  Title -->
+    <title>Joshua Shubert's website</title>
+    <!-- References the style sheet  -->
+    <link rel="stylesheet" href="Index CSS.css" </head>
+
+
+
+    <header>
+        <h1>Welcome to Joshua Shubert's webpage</h1>
+    </header>
+    <!-- reference other html pages-->
+    <nav>
+        <h2>
+            Navigation
+        </h2>
+        <a href="index.html">home</a><br>
+        <a href="boards page.html">boards page</a><br>
+        <a href="game.html">game</a><br>
+        <a href="STRINGS.html">strings</a><br>
+    </nav>
+    <p>
+        <!--section to play audio-->
+        <!-- create button to play the sound-->
+    <h2>Play Audio
+        <button class="button" onclick="playstation();">Press to hear space station sounds</button>
+    </h2>
+
+    <!-- set the meme to move for event driven functions-->
+
+    <button class="button" onclick="startFun();" id="startButton">start</button><button class="button"
+        onclick="stopFun()" id="stopButton">stop</button>
+
+
+    <marquee id="marquee" direction="right">
+        <img id="memeImage" src="77rN.gif">
+    </marquee>
+    <br>
+
+    <!-- creaating the style for the table-->
+    <style>
+        td,
+        th {
+            border: 1px solid #dddddd;
+            text-align: left;
+            padding: 8px;
+        }
+
+        ;
+    </style>
+    <!-- created the width for the table -->
+    <header id="Title">
+        <h2>My Top 3 Favorite SciFi Shows</h2>
+    </header>
+    <table style="width: 100%;">
+        <!-- tr is row / th is collumn / and td is table data-->
+        <tr>
+            <th>number</th>
+            <th>title</th>
+            <th>year</th>
+            <th>number</th>
+
+        </tr>
+        <tr>
+            <td>1</td>
+            <td>Stargate SG1</td>
+            <td>1997</td>
+
+        </tr>
+        <tr>
+            <td>2</td>
+            <td>FireFly</td>
+            <td>2002</td>
+
+
+        </tr>
+        <tr>
+            <td>3</td>
+            <td>Expanse</td>
+            <td>2015</td>
+
+        </tr>
+    </table>
+    <br>
+    <br>
+    <br>
+    <center><img src="stargate_sgc_unending.jpg"></center>
+
+
+    <br>
+    <br>
+    <br>
+    <br>
+
+    <footer>University of Advancing Technology<br>
+        2625 W. Baseline Road Tempe, AZ<br>
+        602-383-8228<br>
+    </footer>
+
+
+
+</html>

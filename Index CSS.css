@@ -1,0 +1,40 @@
+body {
+    background-color: rgb(195, 255, 235);
+    color: rgb(68, 40, 5);
+
+}
+
+nav {
+    height: 250 px;
+    width: 200px;
+    float: left;
+    padding: 5px;
+    line-height: 30px;
+}
+
+Title{
+    text-align: center;
+}
+
+footer {
+    text-align: center;
+    margin-right:0px;
+}
+
+header {
+
+    text-align: center;
+}
+
+button {
+    width: 300px;
+    height: 75px;
+    border-radius: 200px;
+    background-color: rgb(205, 255, 255);
+    border-top-color: rgb(136, 255, 255);
+
+    border-left-color: rgb(103, 255, 255);
+    border-right-color: rgb(94, 255, 255);
+
+    border-bottom-color: rgb(63, 216, 216);
+}

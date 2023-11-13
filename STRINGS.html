@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<!--This is for week 3 of csc 102
+    we will make an input validation form
+    Joshua Shubert jjayshubert@gmail.com 23 oct 2023-->
+
+
+
+<head>
+    <!--
+        creates a reference to the strings.js file
+-->
+    <link rel="stylesheet" href="stringsStyle.css">
+    <script src="stringcode.js"></script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Input Validation</title>
+</head>
+
+<body>
+    <header>
+        <h1>Welcome to my strings page</h1>
+    </header>
+    <nav>
+        <h2>
+            Navigation
+        </h2>
+        <a href="./index.html">home</a><br>
+        <a href="./boards page.html">boards</a><br>
+        <a href="./game.html">games</a><br>
+        <a href="./STRINGS.html">strings</a><br>
+
+    </nav>
+    <h2>input validation section</h2>
+    <div id="loginStatus"></div>
+    <p>submit the data to be validated</p>
+    <!--
+        creates a form on front end of the html
+-->
+    <form id="creditsubmit" onsubmit="return false">
+        first name: <input type="text" id="fname"><br>
+        last name: <input type="text" id="lname"><br>
+        zip code: <input type="text" id="zipcode"><br>
+        <br>
+        <input type="submit" onclick="checkCreds();">
+
+
+    </form>
+    <br>
+    <br>
+    <h2>Palindrome checker</h2>
+    <br>
+    <div id="palinStatus">Palindrome Status</div>
+    <br>
+    <form id="palinSubmit" onsubmit="return false">
+        enter possible palindrome: <input type="text" id="palinInput"><br>
+        <br>
+        <input type="submit" onclick="checkPalin();">
+
+    </form>
+    <br>
+    <br>
+    <br>
+
+<br>
+<br>
+<br>
+<br>
+<footer>University of Advancing Technology<br>
+    2625 W. Baseline Road Tempe, AZ<br>
+    602-383-8228<br>
+</footer>
+</body>
+</body>
+
+<!--
+-->
+
+</html>
